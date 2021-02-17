@@ -40,7 +40,7 @@
 4. Configure Cloud-Init to use ```NoCloud```
     ```bash
     vi /run/cloud-init/cloud.cfg
-        ```
+    ```
 5. Update, remove root password and reboot
     ```bash
     yum update -y && passwd -l root && sudo shutdown -h now
