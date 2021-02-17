@@ -1,4 +1,6 @@
-Ubuntu - cloud-init image for XenOrchestra
+# Create cloud-init image for XenOrchestra
+
+## Ubuntu 20.04.2
 
 1. Install Ubuntu on single ext4 partition
 2. Install XenTools
@@ -23,7 +25,7 @@ Ubuntu - cloud-init image for XenOrchestra
 6. Convert VM to template
 
 
-Centos 8 Stream - cloud-init image for XenOrchestra
+## Centos 8 Stream
 
 1. Install Centos 8 Stream on single ext4 partition
 2. Install XenTools
