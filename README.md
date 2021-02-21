@@ -25,7 +25,7 @@
     dpkg-reconfigure cloud-init
     ```
 
-5. Update, remove root password and reboot
+5. Update, remove root password and shutdown
 
     ```bash
     apt-get update && apt-get upgrade -y && passwd -l root && sudo shutdown -h now
@@ -55,7 +55,7 @@
     vi /run/cloud-init/cloud.cfg
     ```
 
-5. Update, remove root password and reboot
+5. Update, remove root password and shutdown
 
     ```bash
     yum update -y && passwd -l root && sudo shutdown -h now
