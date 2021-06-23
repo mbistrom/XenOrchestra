@@ -39,7 +39,7 @@
 2. Install XenTools
 
     ```bash
-    mount /dev/cdrom /mnt && rpm -i /mnt/Linux/xe-guest-utilities-7*.x86_64.rpm -n && reboot now
+    mount /dev/cdrom /mnt && rpm -i /mnt/Linux/xe-guest-utilities-7*.x86_64.rpm && reboot now
     ```
 
     Unmount Xen Tools
