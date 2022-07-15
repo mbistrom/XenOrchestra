@@ -49,7 +49,7 @@
     ```
     
     ```bash
-    yum install xe-guest-utilities
+    yum install xe-guest-utilities-latest
     ```
 
 3. Unmount Xen Tools
