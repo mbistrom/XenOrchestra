@@ -41,6 +41,16 @@
     ```bash
     mount /dev/cdrom /mnt && rpm -i /mnt/Linux/xe-guest-utilities-7*.x86_64.rpm && reboot now
     ```
+    
+    Can also be done through EPEL
+    
+    ```bash
+    yum install epel-relese
+    ```
+    
+    ```bash
+    yum install xe-guest-utilities
+    ```
 
 3. Unmount Xen Tools
 
