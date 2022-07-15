@@ -9,9 +9,9 @@
     mount /dev/cdrom /mnt && bash /mnt/Linux/install.sh -n && reboot now
     ```
 
-    Unmount Xen Tools
+3. Unmount Xen Tools
 
-3. Remove conflicting Cloud-init configuration
+4. Remove conflicting Cloud-init configuration
 
     ```bash
     rm /etc/cloud/cloud.cfg.d/99-installer.cfg
@@ -19,19 +19,19 @@
     rm -r instance
     ```
 
-4. Configure Cloud-Init to use ```NoCloud```
+5. Configure Cloud-Init to use ```NoCloud```
 
     ```bash
     dpkg-reconfigure cloud-init
     ```
 
-5. Update, remove root password and shutdown
+6. Update, remove root password and shutdown
 
     ```bash
     apt-get update && apt-get upgrade -y && passwd -l root && sudo shutdown -h now
     ```
 
-6. Convert VM to template
+7. Convert VM to template
 
 ## Centos / Rocky / Alma Linux
 
@@ -42,23 +42,24 @@
     mount /dev/cdrom /mnt && rpm -i /mnt/Linux/xe-guest-utilities-7*.x86_64.rpm && reboot now
     ```
 
-    Unmount Xen Tools
-3. Install Cloud-Init
+3. Unmount Xen Tools
+
+4. Install Cloud-Init
 
     ```bash
     yum install cloud-init cloud-utils-growpart
     ```
 
-4. Configure Cloud-Init to use ```NoCloud```
+5. Configure Cloud-Init to use ```NoCloud```
 
     ```bash
     vi /run/cloud-init/cloud.cfg
     ```
 
-5. Update, remove root password and shutdown
+6. Update, remove root password and shutdown
 
     ```bash
     yum update -y && passwd -l root && sudo shutdown -h now
     ```
 
-6. Convert VM to template
+7. Convert VM to template
