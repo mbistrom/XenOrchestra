@@ -52,6 +52,11 @@
     yum install xe-guest-utilities-latest
     ```
 
+    ```bash
+    systemctl enable xe-linux-distribution.service
+    systemctl start xe-linux-distribution.service
+    ```
+
 3. Unmount Xen Tools
 
 4. Install Cloud-Init
