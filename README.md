@@ -45,7 +45,7 @@
     Can also be done through EPEL
     
     ```bash
-    yum install epel-relese
+    yum install epel-release
     ```
     
     ```bash
