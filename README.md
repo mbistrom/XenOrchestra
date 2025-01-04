@@ -35,7 +35,7 @@
 
 ## Centos / Rocky / Alma Linux
 
-1. Install Centos 8 Stream on single ext4 partition
+1. Install Centos / Rocky / Alma on single ext4 partition
 2. Install XenTools
 
     ```bash
